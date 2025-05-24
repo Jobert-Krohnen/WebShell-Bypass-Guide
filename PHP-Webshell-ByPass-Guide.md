@@ -209,8 +209,8 @@ __METHOD__     //当前所属的方法
 第一种：<?php ?>
 第二种：<?php
 第三种：<? ?>
-第四种：<% %>
-第五种：<script language="php"></script>
+第四种：<% %>      #在 PHP 7.0 开始就被彻底移除
+第五种：<script language="php"></script>      #在 PHP 7.0 开始就被彻底移除
 ```
 第三种和第四种为短标识，当使用他们需要开启 `php.ini` 文件中的 `short_open_tag` ，不然会报错
 
